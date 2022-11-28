@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.author {
+    position: absolute;
+    top: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+.markup {
+    color: white;
+    margin-left: 5px;
+    padding: 0 3px;
+    background-color: #2c85f3;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.timeLeft {
+    color: #969697;
+    font-weight: lighter;
+}
+.planet {
+    width: 15px;
+}
+.dots {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.dot {
+    margin: 1px;
+    height: 5px;
+    width: 5px;
+    background-color: #535354;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+}
