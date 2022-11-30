@@ -1,0 +1,22 @@
+.textContent {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.textContent a {
+    text-decoration: none;
+    color: rgb(27, 140, 253);
+}
+
+.textContent a:hover {
+    text-decoration: underline;
+}
+
+.translation {
+    margin: 15px 0;
+    color: grey;
+    cursor: pointer;
+}
+.translation:hover {
+    text-decoration: underline;
+}

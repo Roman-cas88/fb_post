@@ -4,6 +4,7 @@
 }
 
 .header {
+    padding: 15px 15px 0;
     position: relative;
     text-align: left;
     width: 100%;
@@ -14,17 +15,32 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .author {
     position: absolute;
-    top: 3px;
+    top: 18px;
     display: inline-block;
     margin-left: 10px;
     color: black;
     font-weight: bold;
 }
+
+.author a {
+    color: black;
+    text-decoration: none;
+}
+
+.author a:hover {
+    text-decoration: underline;
+}
+
 .markup {
+    position: absolute;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
     color: white;
     margin-left: 5px;
     padding: 0 3px;
@@ -32,24 +48,66 @@
     border-radius: 50%;
     font-size: 10px;
 }
+
 .timeLeft {
     color: #969697;
     font-weight: lighter;
+    font-size: small;
 }
+
 .planet {
+    margin-left: 3px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
+.planet img {
     width: 15px;
 }
-.dots {
+
+.public {
+    display: none;
+}
+
+.planet:hover .public {
+    display: block;
     position: absolute;
-    right: 10px;
+    top: 20px;
+    right: -30px;
+    opacity: 0.8;
+    font-size: small;
+    text-align: center;
+    color: rgb(210, 210, 210);
+    background-color: rgba(0, 0, 0);
+    width: 40px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.dots {
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
     top: 10px;
 }
+
+.dots:hover {
+    background-color: #9696971d;
+}
+
 .dot {
-    margin: 1px;
-    height: 5px;
-    width: 5px;
-    background-color: #535354;
+    opacity: 0.6;
+    margin-left: 3px;
+    height: 4px;
+    width: 4px;
+    background-color: black;
     border-radius: 50%;
     display: inline-block;
-    font-weight: bold;
 }
