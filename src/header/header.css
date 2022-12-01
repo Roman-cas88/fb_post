@@ -50,7 +50,8 @@
 }
 
 .timeLeft {
-    color: #969697;
+    color: #000000;
+    opacity: 0.6;
     font-weight: lighter;
     font-size: small;
 }

@@ -14,8 +14,9 @@
 
 .translation {
     margin: 15px 0;
-    color: grey;
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    opacity: 0.6;
 }
 .translation:hover {
     text-decoration: underline;

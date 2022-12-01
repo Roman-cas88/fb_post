@@ -1,5 +1,6 @@
 import { TextContent } from "./content/textContent"
 import { VideoContent } from "./content/videoContent"
+import { Feedback } from "./feedback/feedback"
 import { Header } from "./header/header"
 import "./post.css"
 
@@ -8,5 +9,6 @@ export const Post = () => {
         <Header />
         <TextContent />
         <VideoContent />
+        <Feedback />
         </div>
 }

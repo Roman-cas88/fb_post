@@ -1,0 +1,73 @@
+.underVideo {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+}
+
+.underVideo img {
+    position: absolute;
+    cursor: pointer;
+}
+
+.likeIcon {
+    width: 20px;
+    left: 15px;
+    z-index: 1;
+}
+
+.thumbsUp {
+    width: 24px;
+    left: 30px;
+    top: 8px;
+}
+
+.underVideo a {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    top: 8px;
+}
+
+.underVideo a:hover {
+    text-decoration: underline;
+}
+
+.count {
+    left: 60px;
+}
+
+.comments {
+    right: 110px;
+}
+
+.shares {
+    right: 40px;
+}
+
+.buttons {
+    padding: 5px 0;
+    width: 100%;
+}
+
+.buttons div {
+    opacity: 0.6;
+    display: inline-block;
+    background-color: transparent;
+    width: 27%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+.buttons div:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.buttons div img {
+    margin-right: 10px;
+    width: 20px;
+}
