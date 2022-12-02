@@ -10,13 +10,13 @@
     cursor: pointer;
 }
 
-.likeIcon {
+.thumbsUp{
     width: 20px;
     left: 15px;
     z-index: 1;
 }
 
-.thumbsUp {
+.likeIcon {
     width: 24px;
     left: 30px;
     top: 8px;
@@ -79,6 +79,7 @@
 
 .filter {
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .filter span {
@@ -102,6 +103,7 @@
 }
 
 #avatarImg {
+    cursor: pointer;
     margin-left: 15px;
     width: 35px;
     border-radius: 50%;
@@ -145,14 +147,97 @@ input:focus {
     right: 120px;
 }
 
-.gif {
+.emoji {
     right: 85px;
 }
 
-.emoji {
+.gif {
     right: 50px;
 }
 
 .stiker {
     right: 15px;
+}
+
+.info {
+    text-align: left;
+    margin-left: 60px;
+    font-size: 13px;
+}
+
+.randomComment {
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.randomAvatar {
+    cursor: pointer;
+    width: 35px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 20px;
+
+}
+
+.topComment {
+    padding-top: 5px;
+    text-align: left;
+    display: inline-block;
+}
+
+.diamond {
+    width: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    width: 12px;
+}
+
+.topFun {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.topFun:hover {
+    text-decoration: underline;
+}
+
+.nikname {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nikname:hover {
+    text-decoration: underline;
+}
+
+.commentContent img {
+    width: 50px;
+}
+
+.comentFeedback {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#timeRemind {
+    opacity: 0.6;
+    font-weight:normal;
+}
+
+.comentFeedback span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.comentFeedback span:hover{
+    text-decoration: underline;
+}
+
+.commentInfo {
+    opacity: 0.6;
+    text-align: left;
+    padding: 15px;
+    font-size: 13px;
 }
