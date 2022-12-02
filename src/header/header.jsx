@@ -20,7 +20,7 @@ export const Header = () => {
                 <p className="timeLeft">November 20 at 10:00 AM · 
                     <div className="planet">
                         <img src={Planet} alt="planet"/>
-                        <div className="public">Public</div>
+                        <div id="public">Public</div>
                     </div>
                 </p>
             </div>
