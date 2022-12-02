@@ -55,7 +55,7 @@
     opacity: 0.6;
     display: inline-block;
     background-color: transparent;
-    width: 27%;
+    width: 29%;
     border-top: 1px solid;
     border-bottom: 1px solid;
     padding: 8px;
@@ -70,4 +70,89 @@
 .buttons div img {
     margin-right: 10px;
     width: 20px;
+}
+
+.commentField {
+    width: 100%;
+    text-align: right;
+}
+
+.filter {
+    cursor: pointer;
+}
+
+.filter span {
+    margin-right: 15px;
+}
+
+.filter span i {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.writeField {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    height: 35px;
+}
+
+.writeField img {
+    width: 22px;
+}
+
+#avatarImg {
+    margin-left: 15px;
+    width: 35px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+input {
+    width: 85%;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+    height: 35px;
+    border-radius: 17px;
+    border: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.avatarStiker,
+.gif,
+.emoji,
+.stiker {
+    right: 10px;
+    position: absolute;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.avatarStiker:hover,
+.gif:hover,
+.emoji:hover,
+.stiker:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.avatarStiker {
+    right: 120px;
+}
+
+.gif {
+    right: 85px;
+}
+
+.emoji {
+    right: 50px;
+}
+
+.stiker {
+    right: 15px;
 }
